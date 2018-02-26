@@ -1,10 +1,12 @@
 package com.coolweather.android.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by apple on 2018/2/26.
  */
 
-public class County {
+public class County extends DataSupport {
     private int id;
     private String countyName;
     private String weatherId;
